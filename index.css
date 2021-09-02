@@ -9,11 +9,6 @@
   border-color: rgba(0, 22, 22, 0.4);
 }
 
-nav,
-main {
-  display: block;
-}
-
 #main-doc {
   position: absolute;
   margin-left: 310px;
@@ -72,4 +67,13 @@ header {
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
+}
+
+@media (max-width: 480px) {
+  #navbar {
+    width: 200px;
+  }
+  #main {
+    margin-left: 220px;
+  }
 }
